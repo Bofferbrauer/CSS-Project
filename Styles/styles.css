@@ -35,23 +35,35 @@ body {
       margin: 2% 10%
 }
 
+#logo {
+      width: 7.5em;
+}
+
 header, #first {
       background-color: rgb(46, 43, 43);
       color: white;
       
 }
 
+a {
+      text-decoration: none;
+}
+
+a:hover {
+      cursor: pointer;
+}
+
 header {
       padding: 10px 10%;
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      font-size: 22px;
       
 }
 
 ul {
-      display: flex;
-      
-      
+      display: flex;     
 }
 
 #first {
@@ -64,9 +76,10 @@ ul {
 
 #placeholder {
       background-color: darkgray;
-      padding: 90px;
-      width: 50%;
+      padding: 100px;
+      width: 60%;
       margin-left: 5%;
+      text-align: center;
 }
 
 h1 {
@@ -82,9 +95,13 @@ h1 {
       border: none;
       background-color: blue;
       color: white;
-      padding: 5px 15px;
+      padding: 5px 25px;
       border-radius: 5px;
       margin-top: 5px;
+}
+
+.signup:hover {
+      cursor: pointer;
 }
 
 h2 {
@@ -105,6 +122,10 @@ h2 {
       border-radius: 10px;
 }
 
+#one {
+      background-image: url(Images/Quiff.jpg);
+}
+
 #third {
       background-color: lightgray;
       padding: 10%;
@@ -122,4 +143,27 @@ h2 {
       text-align: right;
       font-family: 'RoBolto';
       font-weight: bold;
+}
+
+#fourth {
+      background-color: blue;
+      color: white;
+      font-size: 18px;
+      margin: 10%;
+      padding: 50px 20px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-around;
+}
+
+#signup2 {
+      border: 2px solid white;
+      font-size: 18px;
+}
+
+footer {
+      background-color: rgb(46, 43, 43);
+      color: white;
+      padding: 30px;
+      text-align: center;
 }
