@@ -2,3 +2,22 @@
       font-family: Roboto;
       src: url(Fonts/Roboto-Regular.ttf);
 }
+
+* {
+      font-family: 'Roboto', sans-serif;
+}
+
+li {
+      list-style: none;
+}
+
+header, #first {
+      background-color: rgb(46, 43, 43);
+      color: white;
+      margin: 0;
+      padding: 0;
+}
+
+#first {
+      margin: 0px;
+}
