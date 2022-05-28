@@ -1,23 +1,76 @@
 @font-face {
       font-family: Roboto;
       src: url(Fonts/Roboto-Regular.ttf);
+      
 }
 
-* {
+@font-face {
+      font-family: Roboto-thin;
+      src: url(Fonts/Roboto-Thin.tff);
+}
+
+* :not(input) {
+      box-sizing: border-box;
+      margin: 0;
       font-family: 'Roboto', sans-serif;
 }
 
 li {
+      display: flex;
       list-style: none;
+      padding: 5px 15px;
+}
+
+body {
+      margin: 2% 10%
 }
 
 header, #first {
       background-color: rgb(46, 43, 43);
       color: white;
-      margin: 0;
-      padding: 0;
+      
+}
+
+header {
+      padding: 10px 10%;
+      display: flex;
+      justify-content: space-between;
+      
+}
+
+ul {
+      display: flex;
+      
+      
 }
 
 #first {
       margin: 0px;
+      padding: 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+#placeholder {
+      background-color: darkgray;
+      padding: 70px 25%;
+}
+
+h1 {
+      font-size: 42px;
+}
+
+#subtext {
+      font-family: 'Roboto-thin';
+      padding-right: 10%;
+}
+
+.signup {
+      border: none;
+      background-color: blue;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 5px;
+      margin-top: 5px;
 }
