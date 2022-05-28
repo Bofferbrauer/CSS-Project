@@ -3,7 +3,7 @@
       src: url(Fonts/Roboto-Regular.ttf);
       
 }
-
+/* 
 @font-face {
       font-family: Roboto-thin;
       src: url(Fonts/Roboto-Thin.tff);
@@ -17,7 +17,7 @@
 @font-face {
       font-family: RoBolto;
       src: url(Fonts/Roboto-Black.tff);
-}
+} */
 
 * :not(input) {
       box-sizing: border-box;
@@ -87,7 +87,7 @@ h1 {
 }
 
 #subtext {
-      font-family: 'Roboto-thin';
+      /* font-family: 'Roboto-thin'; */
       padding-right: 10%;
 }
 
@@ -134,14 +134,14 @@ h2 {
 
 #quote {
       text-align: center;
-      font-family: 'Roboto-lightitalic';
+      /* font-family: 'Roboto-lightitalic'; */
       font-weight: lighter;
       font-style: italic;
 }
 
 #quotee {
       text-align: right;
-      font-family: 'RoBolto';
+      /* font-family: 'RoBolto'; */
       font-weight: bold;
 }
 
