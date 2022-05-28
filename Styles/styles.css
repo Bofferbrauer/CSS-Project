@@ -9,6 +9,16 @@
       src: url(Fonts/Roboto-Thin.tff);
 }
 
+@font-face {
+      font-family: Roboto-lightitalic;
+      src: url(Fonts/Roboto-Lightitalic.ttf);
+}
+
+@font-face {
+      font-family: RoBolto;
+      src: url(Fonts/Roboto-Black.tff);
+}
+
 * :not(input) {
       box-sizing: border-box;
       margin: 0;
@@ -54,11 +64,13 @@ ul {
 
 #placeholder {
       background-color: darkgray;
-      padding: 70px 25%;
+      padding: 90px;
+      width: 50%;
+      margin-left: 5%;
 }
 
 h1 {
-      font-size: 42px;
+      font-size: 58px;
 }
 
 #subtext {
@@ -73,4 +85,41 @@ h1 {
       padding: 5px 15px;
       border-radius: 5px;
       margin-top: 5px;
+}
+
+h2 {
+      font-size: 48px;
+      text-align: center;
+}
+
+#pictures {
+      display: flex;
+      justify-content: space-around;
+      margin: 25px 10%;
+}
+
+.picture {
+      width: 10em;
+      height: 10em;
+      border: solid 2px blue;
+      border-radius: 10px;
+}
+
+#third {
+      background-color: lightgray;
+      padding: 10%;
+      font-size: 24px;
+}
+
+#quote {
+      text-align: center;
+      font-family: 'Roboto-lightitalic';
+      font-weight: lighter;
+      font-style: italic;
+}
+
+#quotee {
+      text-align: right;
+      font-family: 'RoBolto';
+      font-weight: bold;
 }
